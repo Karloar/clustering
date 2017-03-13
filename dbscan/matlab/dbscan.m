@@ -1,7 +1,6 @@
 clear;
 clc;
 data = load('source_data.dat');
-cluster_center = load('cluster_center.dat');
 distance_matrix = squareform(pdist(data));
 epsilon = 0.05;
 minpts = 25;
